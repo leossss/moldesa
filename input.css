@@ -1,0 +1,30 @@
+/* Mi comentario */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: rgb(255, 168, 53);
+    background: linear-gradient(270deg, rgba(255, 168, 53, 1) 15%, rgba(255, 193, 0, 1) 90%);
+}
+.boton {
+    background-color: rgb(255, 153, 0);
+    color: white;
+    font-weight: bold;
+    box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.13);
+    -webkit-box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.13);
+}
+
+.fixed-topbar-navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 800;
+    position: sticky; /* Eliminé la segunda declaración 'position: sticky;' */
+}
+
+.topbar {
+    background-color: #084e2b;
+    padding: 10px;
+}
